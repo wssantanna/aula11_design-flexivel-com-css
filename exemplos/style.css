@@ -1,0 +1,32 @@
+
+.geral {
+    width: 500px;
+    /* Centralizar */
+    margin: auto;
+    /* Definir quem irá controlar os subgrupos  */
+    display: grid;
+    /* Definir o modelo de posicionamento dos subgrupos */
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    /* grid-template-rows: 50px 300px;*/
+    background-color: chartreuse;
+}
+
+.cabecalho {
+    background-color: aqua;
+    padding: 10px;
+}
+
+.menu {
+    background-color:blueviolet;
+    padding: 10px;
+}
+
+.conteudo {
+    background-color:brown;
+    padding: 10px;
+}
+
+.rodape {
+    background-color:coral;
+    padding: 10px;
+}
